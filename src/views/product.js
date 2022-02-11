@@ -1,11 +1,18 @@
 import React,{Component} from "react";
 import Container from "../../node_modules/react-bootstrap/Container";
+import ProductS1 from "../components/product-s1";
+import ProductS2 from "../components/product-s2";
+import ProductS3 from "../components/product-s3";
+import ProductS4 from "../components/product-s4";
 
 class Product extends Component{
     render(){
         return(        
-            <Container fluid className="product-s1 d-flex align-items-center minh-100vh">
-                
+            <Container fluid className="minh-footer-adj p-0">
+                <ProductS1/>
+                <ProductS2/>
+                <ProductS3/>
+                <ProductS4/>
             </Container>    
         );
     }
