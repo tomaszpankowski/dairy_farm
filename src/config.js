@@ -25,9 +25,15 @@ const appCfg = {
 };
 
 const APP_LINKS = {
-    messages: "",
-    users: ""
+    messages: "http://localhost/dairy_farm/public/message.php",
+    register: "register.php",
+    users: "http://localhost/dairy_farm/public/user.php"
 };
+
+const msgCfg = {
+    pageSize: 10
+};
+
 
 const MESSAGES = {
     comingSoon:{
@@ -43,5 +49,6 @@ const MESSAGES = {
 export {
     appCfg,
     APP_LINKS,
-    MESSAGES
+    MESSAGES,
+    msgCfg
 }
